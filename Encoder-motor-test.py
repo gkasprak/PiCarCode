@@ -92,7 +92,9 @@ while True:
 			
 			#RPS calculation
 			revolutionTime = counterTotal*samplePeriod
-			print(revolutionTime)
+			print("")
+			print("revolution time = ",revolutionTime)
+			
 			RPScalc = 1/revolutionTime
 			
 			print('RPS calculation = ', RPScalc)
